@@ -33,4 +33,4 @@ Standing rules: judging changes nothing (read and run only; fixes happen only if
 
 ## suite mode: judge a skill or a model
 
-`/fable-judge suite <target>` runs the trap suite in `eval/` (inside the plugin install, `../../eval/` from this file) against a target skill, model, or prompt, following `eval/README.md`: a fresh scratch copy per scenario, an executor subagent on its task, then judge the run by diff and execution against its `GROUND-TRUTH.md`, never by the executor's report. Report per-scenario scores and which traps triggered; one seed is a smoke test, say how many seeds ran.
+`/fable-judge suite <target>` runs the trap suite in `eval/` (inside the plugin install, `../../eval/` from this file) against a target skill, model, or prompt, following `eval/README.md`: a fresh scratch copy per scenario, an executor subagent on its task (task prompts live in `eval/workflow.js` TASKS; s7 and s8 have them nowhere else), then judge the run by diff and execution against its `GROUND-TRUTH.md`, never by the executor's report. Report per-scenario scores and which traps triggered; one seed is a smoke test, say how many seeds ran.
