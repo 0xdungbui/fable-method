@@ -39,13 +39,3 @@ This skill orchestrates the fable-method: read its SKILL.md first; its rules gov
 
 1. Self-audit per fable-method audit mode: for each method step, `làm đủ`, `bỏ qua`, or `làm giả`. Fix what one pass can fix (usually an unverified claim: verify it now or relabel it a caveat).
 2. Deliver per method Step 6, in Vietnamese: outcome in the first sentence, verification evidence shown, honest caveats, follow-ups only if they emerged from the work. No stage names or step numbers in the report; the INTENT, AUTH, PENDING and TWINS lines (each only when owed) are the only method artifacts a report may contain.
-
-## When NOT to use this loop
-
-- Trivial tasks (the gate handles them).
-- Pure questions with no multi-step work: plain fable-method covers the shape.
-- Inside an already-orchestrated GSD phase: GSD owns the stages there; apply fable-method rules within them instead of nesting loops.
-
-## Model economy
-
-The loop is model-agnostic. Evidence and attacker subagents are cheap-model-friendly; keep the main thread (deciding, editing) on the strongest model available, and give attackers higher effort than gatherers when a choice exists.

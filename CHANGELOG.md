@@ -1,5 +1,12 @@
 # Changelog
 
+## Nháp tối ưu (nhánh `toi-uu-nhap`, 2026-09-29, CHƯA hợp nhất, CHƯA chạy eval)
+
+- Cắt phần không có vòng eval nào đo: khối Usage của fable-method (gộp một dòng vào Modes), hai ví dụ nén (bản đầy đủ nằm ở `references/examples.md`; ví dụ dùng nhãn "Step N:" nên có thể còn góp vào lỗi lộ nhãn bước, lỗi mà repo ghi là chưa giải), câu giải thích dài của Fit gate (giữ đủ bốn nhánh và luật có người / không người), mục suite mode của fable-judge (rút còn một đoạn, giữ luật chấm bằng diff và ground truth), hai mục cuối của fable-loop (GSD và chọn model).
+- Giữ nguyên mọi luật có vòng eval chứng minh: dòng INTENT (vòng 1 đến 3), cổng AUTH (vòng 11, 14), dòng TWINS (vòng 14, 15), đi xem cấu trúc trước khi đọc (vòng 10), bộ bằng chứng tối thiểu của adapter (vòng 9b), năm bước và các kiểu gian lận của judge (vòng 8), red-line và scope stop của fable-domain (vòng 15).
+- fable-domain không đổi: ít khi được nạp, và vị trí các cổng của nó đã được đo ở vòng 15.
+- Trước khi hợp nhất: chạy smoke eval so bản nháp với bản 1.4.1 trên s2, s9, s13, s14 (fable-method) và s7 (fable-judge).
+
 ## 1.4.1 (2026-09-29, fork 0xdungbui)
 
 - Việt hóa các khuôn đầu ra: dòng `INTENT:` `AUTH:` `PENDING:` `TWINS:` giữ tiền tố tiếng Anh, phần thân viết tiếng Việt; phán quyết fable-judge giữ nhãn `VERIFIED` / `VERIFIED WITH CAVEATS` / `REFUTED` kèm nghĩa tiếng Việt, bảng `Tuyên bố | Quan sát thật`; bảng audit dùng `làm đủ` / `bỏ qua` / `làm giả`; khuôn kế hoạch của fable-loop có nhãn tiếng Việt. Mirror sang AGENTS.md và flowcharts.md.
