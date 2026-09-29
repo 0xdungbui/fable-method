@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.4.1 (2026-09-29, fork 0xdungbui)
+
+- Việt hóa các khuôn đầu ra: dòng `INTENT:` `AUTH:` `PENDING:` `TWINS:` giữ tiền tố tiếng Anh, phần thân viết tiếng Việt; phán quyết fable-judge giữ nhãn `VERIFIED` / `VERIFIED WITH CAVEATS` / `REFUTED` kèm nghĩa tiếng Việt, bảng `Tuyên bố | Quan sát thật`; bảng audit dùng `làm đủ` / `bỏ qua` / `làm giả`; khuôn kế hoạch của fable-loop có nhãn tiếng Việt. Mirror sang AGENTS.md và flowcharts.md.
+- Sửa lệch có sẵn từ upstream: fable-method Step 6 và fable-loop Stage 4 liệt kê thiếu dòng `TWINS:` (và fable-loop thiếu `PENDING:`) trong danh sách dòng đánh dấu được phép có trong báo cáo, trong khi Step 5(c) và artifact gate bắt buộc chúng.
+- fable-judge nhận cả `AUTH: cậu chủ nói` lẫn dạng cũ `AUTH: user said`.
+
 ## 1.4.0 (2026-07-15)
 
 - **Fit gate** (fable-method, before Step 0): routes each ask by where the answer lives - run the loop, research first, make a skill, or say plainly that the answer is a judgment call. The universal fallback is an honest hand-back, never faked rigor.

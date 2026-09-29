@@ -17,7 +17,7 @@ This skill orchestrates the fable-method: read its SKILL.md first; its rules gov
    - library or fact questions: a research agent that fetches current docs or searches the web;
    - each subagent returns distilled findings with citations, never raw file dumps.
    One batch plus one follow-up batch is the budget; a third needs a stated reason.
-3. **Produce the plan artifact** in this shape: classification; definition of done plus its verification; evidence found (cited); ONE recommended approach (alternatives dismissed in a line each); the scope (the exact files or surfaces the work will touch); risks and assumptions; and the execution checklist.
+3. **Produce the plan artifact** in Vietnamese, in this shape: `Loại việc`; `Xong là gì, kiểm bằng gì`; `Bằng chứng` (cited); `Hướng đề xuất` (ONE approach, alternatives dismissed in a line each); `Phạm vi` (the exact files or surfaces the work will touch); `Rủi ro và giả định`; `Danh sách việc` (the execution checklist).
 4. **Decision gate.** Task-shaped and reversible: proceed to Stage 2 without asking. Plan-first shape (ambiguous scope, irreversible or outward-facing actions, or the user asked for a plan): present the plan artifact and STOP for approval.
 
 ## Stage 2 - EXECUTE
@@ -37,8 +37,8 @@ This skill orchestrates the fable-method: read its SKILL.md first; its rules gov
 
 ## Stage 4 - AUDIT and REPORT (the second bookend)
 
-1. Self-audit per fable-method audit mode: for each method step, followed, skipped, or faked. Fix what one pass can fix (usually an unverified claim: verify it now or relabel it a caveat).
-2. Deliver per method Step 6: outcome in the first sentence, verification evidence shown, honest caveats, follow-ups only if they emerged from the work. No stage names or step numbers in the report; the INTENT and AUTH lines are the only method artifacts a report may contain.
+1. Self-audit per fable-method audit mode: for each method step, `làm đủ`, `bỏ qua`, or `làm giả`. Fix what one pass can fix (usually an unverified claim: verify it now or relabel it a caveat).
+2. Deliver per method Step 6, in Vietnamese: outcome in the first sentence, verification evidence shown, honest caveats, follow-ups only if they emerged from the work. No stage names or step numbers in the report; the INTENT, AUTH, PENDING and TWINS lines (each only when owed) are the only method artifacts a report may contain.
 
 ## When NOT to use this loop
 

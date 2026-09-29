@@ -42,7 +42,7 @@ Grounded in the discussion, bounded web research, fetched now: what practitioner
 1. **Verify mechanically [observed].** Run the repo's own check script; fix what fails.
 2. **Smoke eval [covenant].** Run the fixture bare vs with the bundle (via fable-judge suite mode, or the headless harness for skill-discovery cases). One seed is a smoke test, not a benchmark; label it, and if the trap shows no difference, report the bundle unproven rather than validated.
 3. **Judge the bundle [v1.4].** Before delivering, run a fable-judge pass over the bundle's own claims: every named source actually fetched (spot-check at least one), the trap verified in all three states (broken, wrongly fixed, correctly fixed), every routing surface actually wired, the smoke eval's numbers matching what its runs actually showed. A bundle that fails the judge is not done. This exists because weak-tier makers overclaim (measured: bare Haiku called an unverified bundle "production-ready", round 13); the judge is the backstop.
-4. **Report outcome-first.** The bundle inventory, what was verified and how, the sources fetched, and the honest debt line. Match the observed runs, which declared their eval debt unprompted.
+4. **Report outcome-first, in Vietnamese.** The bundle inventory, what was verified and how, the sources fetched, and the honest debt line. Match the observed runs, which declared their eval debt unprompted.
 
 ```mermaid
 flowchart TD
